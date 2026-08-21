@@ -1,0 +1,49 @@
+﻿[Files]
+File0=Planet.java
+File1=Raumschiff.java
+
+[Box:  - Planet]
+X=248
+Y=196
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+
+[Box:  - Raumschiff]
+X=13
+Y=27
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+
+[Object:  - raumschiff1]
+X=239
+Y=285
+Name=raumschiff1
+Typ=Raumschiff
+
+[Object:  - raumschiff2]
+X=0
+Y=327
+Name=raumschiff2
+Typ=Raumschiff
+
+[Diagram]
+Comments=0
+OffsetX=0
+OffsetY=0
+Visibility=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+ShowConnections=0
+Fontname=Segoe UI
+Fontsize=8
+ShowObjectDiagram=0
+
+[Connections]
+V0=raumschiff1#Raumschiff#InstanceOf####0#0#0###0#0
+V1=raumschiff2#Raumschiff#InstanceOf####0#0#0###0#0
+
