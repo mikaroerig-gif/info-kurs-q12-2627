@@ -5,7 +5,6 @@
 *.pem
 
 # Kompilierte Dateien
-*.class
 *.o
 *.exe
 *.out
